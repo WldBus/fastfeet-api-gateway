@@ -6,7 +6,6 @@ spring:
     name: api-gateway
   main:
     web-application-type: reactive
-
   cloud:
     gateway:
       routes:
@@ -18,9 +17,3 @@ spring:
 eureka:
   client:
     enabled: false
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health,info
