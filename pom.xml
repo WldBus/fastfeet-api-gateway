@@ -22,13 +22,7 @@
         <spring-cloud.version>2023.0.3</spring-cloud.version>
     </properties>
 
-    <dependencies>
-        <!-- Базовый web-стартер, чтобы RestController/GetMapping собирались -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
+     <dependencies>
         <!-- Gateway -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
