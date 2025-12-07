@@ -8,17 +8,16 @@ spring:
     web-application-type: reactive
 
   cloud:
-    config:
-      enabled: false
-      import-check:
-        enabled: false
-
     gateway:
       routes:
         - id: root
           uri: http://example.com
           predicates:
             - Path=/health
+
+eureka:
+  client:
+    enabled: false
 
 management:
   endpoints:
