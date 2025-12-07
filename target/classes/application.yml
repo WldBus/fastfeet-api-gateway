@@ -8,7 +8,6 @@ spring:
     web-application-type: reactive
 
   cloud:
-    # ВАЖНО: полностью отключаем Spring Cloud Config, чтобы он не требовал spring.config.import
     config:
       enabled: false
       import-check:
